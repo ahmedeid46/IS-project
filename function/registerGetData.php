@@ -6,7 +6,7 @@ function getData($level)
                                 course.name,course.code,course.Credithours,department.name AS 'codpart',course.Prerequisite_code ,register.score
                             FROM 
                                ( course INNER JOIN department ON course.department = department.code)
-                               left JOIN register ON course.Prerequisite_code = register.id_course
+                               RIGHT JOIN register ON course.Prerequisite_code = register.id_course
                                 
                            WHERE
                                course.level = ?
