@@ -28,7 +28,6 @@ function getLevel($id){
     $stmt->execute(array($id));
     $level = $stmt -> fetch();
     return $level['level'];
-
 }
 function lastSubject($id){
     include 'contactDB.php';

@@ -23,6 +23,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         $_SESSION['ID'] = $row['id'];
         header('Location:../dashboard/profile.php');
         exit();
-
+    }else{
+        header('location:login.php');
     }
 }
