@@ -21,9 +21,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acc9f995-7c3a-48eb-b467-7a0dd6887111" name="Default Changelist" comment="9/12/2020">
-      <change afterPath="$PROJECT_DIR$/function/getAllRegister.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function/contactDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/contactDB.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
       <workItem from="1607356436951" duration="5643000" />
       <workItem from="1607412610470" duration="1997000" />
       <workItem from="1607416018681" duration="10897000" />
-      <workItem from="1607503658061" duration="18193000" />
+      <workItem from="1607503658061" duration="22399000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="commit 2">
       <created>1606924196649</created>
@@ -252,7 +250,13 @@
       <option name="presentableId" value="LOCAL؜٠٠٠٣٠" />
       <updated>1607522764523</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL؜٠٠٠٣١" summary="9/12/2020">
+      <created>1607527663401</created>
+      <option name="number" value="LOCAL؜٠٠٠٣١" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٣١" />
+      <updated>1607527663401</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,19 +313,19 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="13" y="9" key="SettingsEditor/0.0.1024.728@0.0.1024.728" timestamp="1607361566399" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1607522766698">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1607529195360">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="186" y="65" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1607361647202" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607522766698" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607529195360" />
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607198729397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1607198729397" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607362774156">
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607535719600">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1607362774156" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1607535719600" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1607351612824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
