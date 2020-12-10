@@ -77,11 +77,11 @@ $feilds=getfaildCourse($_SESSION['ID']);
                     <div class="change-img">
                         <div class="avatar-upload">
                             <div class="avatar-edit">
-                                <input type="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+                                <input type="file" name="img" id="imageUpload" accept=".png, .jpg, .jpeg">
                                 <label for="imageUpload"></label>
                             </div>
                             <div class="avatar-preview">
-                                <div id="imagePreview" style="background-image: url(https://w7.pngwing.com/pngs/980/886/png-transparent-male-portrait-avatar-computer-icons-icon-design-avatar-flat-face-icon-people-head-cartoon-thumbnail.png);"></div>
+                                <div id="imagePreview" style="background-image: url(<?php echo $row['img'];?>);"></div>
                             </div>
                         </div>
                         <h5 class="text-center mt-3">Username</h5>

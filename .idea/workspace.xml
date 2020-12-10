@@ -21,12 +21,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acc9f995-7c3a-48eb-b467-7a0dd6887111" name="Default Changelist" comment="9/12/2020">
+      <change afterPath="$PROJECT_DIR$/data/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/saveAndSendPhoto.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function/contactDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/contactDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/profileSendData.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/profileSendData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/registerGetData.php" beforeDir="false" afterPath="$PROJECT_DIR$/function/registerGetData.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,9 @@
       <workItem from="1607356436951" duration="5643000" />
       <workItem from="1607412610470" duration="1997000" />
       <workItem from="1607416018681" duration="10897000" />
-      <workItem from="1607503658061" duration="29424000" />
+      <workItem from="1607503658061" duration="30317000" />
+      <workItem from="1607590159051" duration="1617000" />
+      <workItem from="1607597157662" duration="3470000" />
     </task>
     <task id="LOCAL؜٠٠٠٠١" summary="commit 2">
       <created>1606924196649</created>
@@ -266,7 +268,13 @@
       <option name="presentableId" value="LOCAL؜٠٠٠٣٢" />
       <updated>1607535791184</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL؜٠٠٠٣٣" summary="9/12/2020">
+      <created>1607543628837</created>
+      <option name="number" value="LOCAL؜٠٠٠٣٣" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٣٣" />
+      <updated>1607543628837</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,10 +319,10 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="292" y="119" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1607361564324" />
-    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1607524423442">
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1607597539694">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1607524423442" />
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1607597539694" />
     <state x="482" y="43" key="RollbackChangesDialog" timestamp="1607522811903">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -323,19 +331,19 @@
       <screen x="0" y="0" width="1024" height="728" />
     </state>
     <state x="13" y="9" key="SettingsEditor/0.0.1024.728@0.0.1024.728" timestamp="1607361566399" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1607536673510">
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2" timestamp="1607543672312">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="186" y="65" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1607361647202" />
-    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607536673510" />
+    <state x="233" y="61" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607543672312" />
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607198729397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1607198729397" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607535719600">
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607597192163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1607535719600" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1607597192163" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1607351612824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

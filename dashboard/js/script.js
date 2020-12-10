@@ -39,7 +39,7 @@ $(function() {
         if (files.length != 0) {
             fd.append('file', files[0]);
             $.ajax({
-                url: '../../function/profileSendData.php',
+                url: '../function/saveAndSendPhoto.php',
                 type: 'post',
                 data: fd,
                 contentType: false,
