@@ -17,8 +17,8 @@ $(function() {
     list_link_close_btn.on("click", () => {
         list_animation.reverse();
     });
-    // Upload Photo Profile Section ====================================
-    function readURL(input) {
+     // Upload Photo Profile Section ====================================
+    /* function readURL(input) {
         if (input.files && input.files[0]) {
             var reader = new FileReader();
             reader.onload = function(e) {
@@ -29,9 +29,44 @@ $(function() {
             }
             reader.readAsDataURL(input.files[0]);
         }
-    }
+    } */
     $("#imageUpload").change(function() {
-        readURL(this);
+        // readURL(this);
+        var fd = new FormData();
+        var files = $('#imageUpload')[0].files;
+
+        // Check file selected or not
+        if (files.length != 0) {
+            fd.append('file', files[0]);
+            $.ajax({
+                url: '../../function/profileSendData.php',
+                type: 'post',
+                data: fd,
+                contentType: false,
+                processData: false,
+                success: function(response) {
+                    if (response != 0) {
+                        $('#imagePreview').css('background-image', 'url(' + response + ')');
+                        $('#imagePreview').hide();
+                        $('#imagePreview').fadeIn(650);
+                        $(".page-content .container-fluid").prepend(`<div class="mt-2 alert alert-success nt-slct">Uploaded</div>`);
+                        $(".page-content .container-fluid").find(".nt-slct").delay(1500).hide(1200, function() {
+                            $(this).remove();
+                        });
+                    } else {
+                        $(".page-content .container-fluid").prepend(`<div class="mt-2 alert alert-danger er-nt-slct">Img Not Uploaded</div>`);
+                        $(".page-content .container-fluid").find(".er-nt-slct").delay(1500).hide(1200, function() {
+                            $(this).remove();
+                        });
+                    }
+                },
+            });
+        } else {
+            $(".page-content .container-fluid").prepend(`<div class="mt-2 alert alert-danger er-nt-slct">Please Select A Photo</div>`);
+            $(".page-content .container-fluid").find(".er-nt-slct").delay(1500).hide(1200, function() {
+                $(this).remove();
+            });
+        }
     });
     // Form Profile =======================================================
     $('.change-data-self .form-profile').submit(function(cl) {
