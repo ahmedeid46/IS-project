@@ -84,7 +84,7 @@ $feilds=getfaildCourse($_SESSION['ID']);
                                 <div id="imagePreview" style="background-image: url(<?php echo $row['img'];?>);"></div>
                             </div>
                         </div>
-                        <h5 class="text-center mt-3">Username</h5>
+                        <h5 class="text-center mt-3"><?php echo $row['name']; ?></h5>
                     </div>
                     <div class="change-data-self mt-4 mb-4">
                         <form class="form-profile clearfix" action="../function/profileSendData.php" method="post">
